@@ -19,6 +19,7 @@
 2. 파일 ➔ 기본 설정(Preferences)의 `추가 보드 매니저 URL`에 아래 주소를 넣습니다.
     
     > `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+!! 만일 설치가 안되는 경우 아래 주소를 참고해주세요.
     > `https://cdn.jsdelivr.net/gh/espressif/arduino-esp32@gh-pages/package_esp32_index.json //보드 매니저 설치 실패 경우`
     
 3. 왼쪽 메뉴의 **보드 매니저**에서 **esp32**를 검색하여 설치합니다.
@@ -32,6 +33,8 @@
 
 1. `TFT_eSPI` (화면 제어용)
 2. `TJpg_Decoder` (JPG 사진 압축 해제용)
+3. `ArduinoJson` (사진 데이터 전송)
+4. `XPT2046_Touchscreen`(디스플레이의 터치스크린 제어)
 
 ### ③ User_Setup.h 파일 수정(사진 업로드 시 색상 이상현상 제거)
 ``` h

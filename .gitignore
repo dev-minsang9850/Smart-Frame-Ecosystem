@@ -22,3 +22,11 @@
 **/.cxx/
 **/CMakeCache.txt
 **/CMakeFiles/
+node_modules/
+uploads/
+.DS_Store
+build/
+dist/
+*.spec
+__pycache__/
+*.zip
